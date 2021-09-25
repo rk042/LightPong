@@ -14,13 +14,6 @@ public class Boll : MonoBehaviour
         _rd = GetComponent<Rigidbody2D>();
     }
 
-    // Start is called before the first frame update
-    void Start()
-    {
-        //_rd.AddForce(new Vector2(3, 3));
-        //_rd.angularVelocity = 0.5f;
-    }
-
     private void OnCollisionEnter2D(Collision2D other)
     {
         //change random color 
@@ -47,8 +40,4 @@ public class Boll : MonoBehaviour
         
     }
 
-    private void FixedUpdate()
-    {
-        
-    }
 }
